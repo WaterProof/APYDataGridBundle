@@ -80,6 +80,8 @@ class DataGridExtension extends \Twig_Extension
     {
         $this->environment = $environment;
 
+        return ;
+
         // Avoids the exception "Variable does not exist" with the _self template
         $globals = $this->environment->getGlobals();
 
